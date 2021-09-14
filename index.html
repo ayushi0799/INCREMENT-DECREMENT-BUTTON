@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INCREMENT DECREMENT BUTTON</title>
+    <style>
+        .container{
+            align-items: center;
+            text-align: center;
+            margin: 20%;
+            background-color: rgb(199, 98, 98);
+            
+    height: 152px;
+    width: 300px;
+    padding-top: 40px;
+    margin-left: 40%;
+    border-radius: 15px;
+        }
+        body{
+            background-color: blanchedalmond;
+            align-items: center;
+            text-align: center;
+        }
+        button{
+            color: rgb(0, 0, 0);
+            background-color: rgb(198, 98, 98);
+            border-color: black;
+            border-width: 3px;
+            border-radius: 5px;
+            height: 30px;
+            width: 70px;
+            transition-duration: 0.4s;
+            
+        }
+        button:hover{
+            background-color: black;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <h2 id="button"></h2>
+        <button onclick="minus()"> - </button>
+        <button onclick="reset()">RESET</button>
+        <button onclick="plus()">+</button>
+        
+       
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
